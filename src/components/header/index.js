@@ -21,9 +21,10 @@ export default () =>
         <Logo
           src={process.env.REACT_APP_LOGO}
           alt={process.env.REACT_APP_NAME}
+          style={{ bordeerRadius: "8" }}
         />
       ) : (
-        <Title>{process.env.REACT_APP_NAME}</Title>
-      )}
+          <Title>{process.env.REACT_APP_NAME}</Title>
+        )}
     </Header>
   ) : null;
