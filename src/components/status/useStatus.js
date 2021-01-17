@@ -28,4 +28,5 @@ const getComponentLabelPercent = (components, label) =>
     component.labels.find((componentLabel) => componentLabel.name === label)
   ).length *
     100) /
-  components.length;
+  components.length
+  ;

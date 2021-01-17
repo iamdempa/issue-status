@@ -21,10 +21,11 @@ export default () =>
         <Logo
           src={process.env.REACT_APP_LOGO}
           alt={process.env.REACT_APP_NAME}
-          style={{ width: '150px', height: 'auto' }}
+          style={{ width: '130px', height: 'auto' }}
         />
       ) : (
           <Title>{process.env.REACT_APP_NAME}</Title>
         )}
+      <h3 ><span style={{ color: "orange" }}>iTelasoft</span> - Effi Status Page</h3>
     </Header>
   ) : null;
